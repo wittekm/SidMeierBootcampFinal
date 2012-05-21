@@ -1,0 +1,1441 @@
+fileFormatVersion: 2
+guid: 8c60ed81fd533414db358bc1631359c5
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: Right_Thig
+    4300002: Left_Colla
+    4300004: Twist01
+    4300006: Head01
+    4300008: NewGroup01
+    4300010: Predatorma
+    4300012: Left_Eye01
+    4300014: Right_Eye0
+    4300016: lLock1top0
+    4300018: lLock1mid0
+    4300020: lLock2top0
+    4300022: lLock2mid0
+    4300024: lLock2tip0
+    4300026: rLock1top0
+    4300028: rLock1mid0
+    4300030: lLock1tip0
+    4300032: rLock2top0
+    4300034: rLock2mid0
+    4300036: rLock2tip0
+    4300038: rLock3top0
+    4300040: rLock3mid0
+    4300042: rLock3tip0
+    4300044: rLock4top0
+    4300046: rLock4mid0
+    4300048: rLock4tip0
+    4300050: midTop01
+    4300052: midMid01
+    4300054: midTip01
+    4300056: lLock4top0
+    4300058: lLock4mid0
+    4300060: lLock4tip0
+    4300062: lLock3top0
+    4300064: lLock3mid0
+    4300066: lLock3tip0
+    4300068: Right_Coll
+    4300070: rPad03
+    4300072: rPad04
+    4300074: Left_Toe01
+    4300076: Neck01
+    4300078: Right_Foot
+    4300080: Left_Foot0
+    4300082: Chest01
+    4300084: Cannon01
+    4300086: Right_Shin
+    4300088: Left_Shin0
+    4300090: Left_Thigh
+    4300092: Abdomen01
+    4300094: Hip01
+    4300096: FrontCloth
+    4300098: BackCloth0
+    4300100: Right_Toe0
+    4300102: Right_Pink
+    4300104: Right_Inde
+    4300106: Right_Mid_
+    4300108: Right_Ring
+    4300110: Right_Pin0
+    4300112: Right_Rin0
+    4300114: Right_Ind0
+    4300116: Right_Mid0
+    4300118: Right_Pin1
+    4300120: Right_Rin1
+    4300122: Right_Ind1
+    4300124: Right_Thum
+    4300126: Right_Mid1
+    4300128: Right_Hand
+    4300130: Right_Thu0
+    4300132: Right_Thu1
+    4300134: Right_Fore
+    4300136: blades01
+    4300138: Right_Shou
+    4300140: Left_Ring_
+    4300142: Left_Mid_0
+    4300144: Left_Thumb
+    4300146: Left_Pinky
+    4300148: Left_Index
+    4300150: Left_Thum0
+    4300152: Left_Thum1
+    4300154: Left_Inde0
+    4300156: Left_Pink0
+    4300158: Left_Pink1
+    4300160: Left_Ring0
+    4300162: Left_Mid_1
+    4300164: Left_Mid_2
+    4300166: Left_Ring1
+    4300168: Left_Inde1
+    4300170: Left_Hand0
+    4300172: Left_Forea
+    4300174: Displayfla
+    4300176: Left_Shoul
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: 1a870100
+      data:
+        first: 4
+        second: fa1a0600
+      data:
+        first: 111
+        second: 605fa900
+    Abdomen01:
+      data:
+        first: 1
+        second: 64870100
+      data:
+        first: 4
+        second: 441b0600
+      data:
+        first: 23
+        second: fe182300
+      data:
+        first: 33
+        second: 3e5b3200
+    BackCloth0:
+      data:
+        first: 1
+        second: 3e870100
+      data:
+        first: 4
+        second: 1e1b0600
+      data:
+        first: 23
+        second: e2182300
+      data:
+        first: 33
+        second: 225b3200
+    Cannon01:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+      data:
+        first: 23
+        second: b6182300
+      data:
+        first: 33
+        second: f65a3200
+    Chest01:
+      data:
+        first: 1
+        second: 52870100
+      data:
+        first: 4
+        second: 321b0600
+      data:
+        first: 23
+        second: f0182300
+      data:
+        first: 33
+        second: 305b3200
+    Displayfla:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+      data:
+        first: 23
+        second: 98182300
+      data:
+        first: 33
+        second: d85a3200
+    Dummy22:
+      data:
+        first: 1
+        second: 58870100
+      data:
+        first: 4
+        second: 381b0600
+    Dummy23:
+      data:
+        first: 1
+        second: 32870100
+      data:
+        first: 4
+        second: 121b0600
+    Dummy24:
+      data:
+        first: 1
+        second: 30870100
+      data:
+        first: 4
+        second: 101b0600
+    Dummy25:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    Dummy26:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+    Dummy27:
+      data:
+        first: 1
+        second: 4c870100
+      data:
+        first: 4
+        second: 2c1b0600
+    Dummy28:
+      data:
+        first: 1
+        second: 4a870100
+      data:
+        first: 4
+        second: 2a1b0600
+    Dummy29:
+      data:
+        first: 1
+        second: 48870100
+      data:
+        first: 4
+        second: 281b0600
+    Dummy30:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+    Dummy31:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+    Dummy32:
+      data:
+        first: 1
+        second: 6e870100
+      data:
+        first: 4
+        second: 4e1b0600
+    Dummy33:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+    Dummy34:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+    Dummy35:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    Dummy36:
+      data:
+        first: 1
+        second: 66870100
+      data:
+        first: 4
+        second: 461b0600
+    Dummy37:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    Dummy38:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+    Dummy39:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    Dummy40:
+      data:
+        first: 1
+        second: 5c870100
+      data:
+        first: 4
+        second: 3c1b0600
+    FrontCloth:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    Head01:
+      data:
+        first: 1
+        second: 7c870100
+      data:
+        first: 4
+        second: 5c1b0600
+      data:
+        first: 23
+        second: 10192300
+      data:
+        first: 33
+        second: 505b3200
+    Hip01:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    Left_Colla:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    Left_Eye01:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    Left_Foot0:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    Left_Forea:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+      data:
+        first: 23
+        second: a6182300
+      data:
+        first: 33
+        second: e65a3200
+    Left_Hand0:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    Left_Inde0:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+      data:
+        first: 23
+        second: b0182300
+      data:
+        first: 33
+        second: f05a3200
+    Left_Inde1:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+      data:
+        first: 23
+        second: a0182300
+      data:
+        first: 33
+        second: e05a3200
+    Left_Index:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    Left_Mid_0:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    Left_Mid_1:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    Left_Mid_2:
+      data:
+        first: 1
+        second: 40870100
+      data:
+        first: 4
+        second: 201b0600
+      data:
+        first: 23
+        second: e4182300
+      data:
+        first: 33
+        second: 245b3200
+    Left_Pink0:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    Left_Pink1:
+      data:
+        first: 1
+        second: 54870100
+      data:
+        first: 4
+        second: 341b0600
+      data:
+        first: 23
+        second: f2182300
+      data:
+        first: 33
+        second: 325b3200
+    Left_Pinky:
+      data:
+        first: 1
+        second: 1e870100
+      data:
+        first: 4
+        second: fe1a0600
+      data:
+        first: 23
+        second: c8182300
+      data:
+        first: 33
+        second: 085b3200
+    Left_Ring0:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+      data:
+        first: 23
+        second: a4182300
+      data:
+        first: 33
+        second: e45a3200
+    Left_Ring1:
+      data:
+        first: 1
+        second: 68870100
+      data:
+        first: 4
+        second: 481b0600
+      data:
+        first: 23
+        second: 00192300
+      data:
+        first: 33
+        second: 405b3200
+    Left_Ring_:
+      data:
+        first: 1
+        second: 76870100
+      data:
+        first: 4
+        second: 561b0600
+      data:
+        first: 23
+        second: 0c192300
+      data:
+        first: 33
+        second: 4c5b3200
+    Left_Shin0:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    Left_Shoul:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    Left_Thigh:
+      data:
+        first: 1
+        second: 22870100
+      data:
+        first: 4
+        second: 021b0600
+      data:
+        first: 23
+        second: cc182300
+      data:
+        first: 33
+        second: 0c5b3200
+    Left_Thum0:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+      data:
+        first: 23
+        second: ac182300
+      data:
+        first: 33
+        second: ec5a3200
+    Left_Thum1:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+      data:
+        first: 23
+        second: aa182300
+      data:
+        first: 33
+        second: ea5a3200
+    Left_Thumb:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    Left_Toe01:
+      data:
+        first: 1
+        second: 38870100
+      data:
+        first: 4
+        second: 181b0600
+      data:
+        first: 23
+        second: dc182300
+      data:
+        first: 33
+        second: 1c5b3200
+    Neck01:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+      data:
+        first: 23
+        second: b8182300
+      data:
+        first: 33
+        second: f85a3200
+    NewGroup01:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    Predatorma:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+      data:
+        first: 23
+        second: 90182300
+      data:
+        first: 33
+        second: d05a3200
+    Right_Coll:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+      data:
+        first: 23
+        second: a8182300
+      data:
+        first: 33
+        second: e85a3200
+    Right_Eye0:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+      data:
+        first: 23
+        second: 04192300
+      data:
+        first: 33
+        second: 445b3200
+    Right_Foot:
+      data:
+        first: 1
+        second: 74870100
+      data:
+        first: 4
+        second: 541b0600
+      data:
+        first: 23
+        second: 0a192300
+      data:
+        first: 33
+        second: 4a5b3200
+    Right_Fore:
+      data:
+        first: 1
+        second: 7a870100
+      data:
+        first: 4
+        second: 5a1b0600
+      data:
+        first: 23
+        second: 0e192300
+      data:
+        first: 33
+        second: 4e5b3200
+    Right_Hand:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+      data:
+        first: 23
+        second: ae182300
+      data:
+        first: 33
+        second: ee5a3200
+    Right_Ind0:
+      data:
+        first: 1
+        second: 60870100
+      data:
+        first: 4
+        second: 401b0600
+      data:
+        first: 23
+        second: fa182300
+      data:
+        first: 33
+        second: 3a5b3200
+    Right_Ind1:
+      data:
+        first: 1
+        second: 34870100
+      data:
+        first: 4
+        second: 141b0600
+      data:
+        first: 23
+        second: d8182300
+      data:
+        first: 33
+        second: 185b3200
+    Right_Inde:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+      data:
+        first: 23
+        second: a2182300
+      data:
+        first: 33
+        second: e25a3200
+    Right_Mid0:
+      data:
+        first: 1
+        second: 5e870100
+      data:
+        first: 4
+        second: 3e1b0600
+      data:
+        first: 23
+        second: f8182300
+      data:
+        first: 33
+        second: 385b3200
+    Right_Mid1:
+      data:
+        first: 1
+        second: 28870100
+      data:
+        first: 4
+        second: 081b0600
+      data:
+        first: 23
+        second: d0182300
+      data:
+        first: 33
+        second: 105b3200
+    Right_Mid_:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    Right_Pin0:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    Right_Pin1:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+      data:
+        first: 23
+        second: 9a182300
+      data:
+        first: 33
+        second: da5a3200
+    Right_Pink:
+      data:
+        first: 1
+        second: 24870100
+      data:
+        first: 4
+        second: 041b0600
+      data:
+        first: 23
+        second: ce182300
+      data:
+        first: 33
+        second: 0e5b3200
+    Right_Rin0:
+      data:
+        first: 1
+        second: 12870100
+      data:
+        first: 4
+        second: f21a0600
+      data:
+        first: 23
+        second: be182300
+      data:
+        first: 33
+        second: fe5a3200
+    Right_Rin1:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    Right_Ring:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    Right_Shin:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+      data:
+        first: 23
+        second: b4182300
+      data:
+        first: 33
+        second: f45a3200
+    Right_Shou:
+      data:
+        first: 1
+        second: 50870100
+      data:
+        first: 4
+        second: 301b0600
+      data:
+        first: 23
+        second: ee182300
+      data:
+        first: 33
+        second: 2e5b3200
+    Right_Thig:
+      data:
+        first: 1
+        second: 18870100
+      data:
+        first: 4
+        second: f81a0600
+      data:
+        first: 23
+        second: c4182300
+      data:
+        first: 33
+        second: 045b3200
+    Right_Thu0:
+      data:
+        first: 1
+        second: 6a870100
+      data:
+        first: 4
+        second: 4a1b0600
+      data:
+        first: 23
+        second: 02192300
+      data:
+        first: 33
+        second: 425b3200
+    Right_Thu1:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+      data:
+        first: 23
+        second: 94182300
+      data:
+        first: 33
+        second: d45a3200
+    Right_Thum:
+      data:
+        first: 1
+        second: 3c870100
+      data:
+        first: 4
+        second: 1c1b0600
+      data:
+        first: 23
+        second: e0182300
+      data:
+        first: 33
+        second: 205b3200
+    Right_Toe0:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    Twist01:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    blades01:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+      data:
+        first: 23
+        second: 9e182300
+      data:
+        first: 33
+        second: de5a3200
+    hand-left0:
+      data:
+        first: 1
+        second: 78870100
+      data:
+        first: 4
+        second: 581b0600
+    hand-right:
+      data:
+        first: 1
+        second: 26870100
+      data:
+        first: 4
+        second: 061b0600
+    lLock1mid0:
+      data:
+        first: 1
+        second: 56870100
+      data:
+        first: 4
+        second: 361b0600
+      data:
+        first: 23
+        second: f4182300
+      data:
+        first: 33
+        second: 345b3200
+    lLock1tip0:
+      data:
+        first: 1
+        second: 16870100
+      data:
+        first: 4
+        second: f61a0600
+      data:
+        first: 23
+        second: c2182300
+      data:
+        first: 33
+        second: 025b3200
+    lLock1top0:
+      data:
+        first: 1
+        second: 42870100
+      data:
+        first: 4
+        second: 221b0600
+      data:
+        first: 23
+        second: e6182300
+      data:
+        first: 33
+        second: 265b3200
+    lLock2mid0:
+      data:
+        first: 1
+        second: 72870100
+      data:
+        first: 4
+        second: 521b0600
+      data:
+        first: 23
+        second: 08192300
+      data:
+        first: 33
+        second: 485b3200
+    lLock2tip0:
+      data:
+        first: 1
+        second: 70870100
+      data:
+        first: 4
+        second: 501b0600
+      data:
+        first: 23
+        second: 06192300
+      data:
+        first: 33
+        second: 465b3200
+    lLock2top0:
+      data:
+        first: 1
+        second: 2a870100
+      data:
+        first: 4
+        second: 0a1b0600
+      data:
+        first: 23
+        second: d2182300
+      data:
+        first: 33
+        second: 125b3200
+    lLock3mid0:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+      data:
+        first: 23
+        second: 96182300
+      data:
+        first: 33
+        second: d65a3200
+    lLock3tip0:
+      data:
+        first: 1
+        second: 46870100
+      data:
+        first: 4
+        second: 261b0600
+      data:
+        first: 23
+        second: ea182300
+      data:
+        first: 33
+        second: 2a5b3200
+    lLock3top0:
+      data:
+        first: 1
+        second: 4e870100
+      data:
+        first: 4
+        second: 2e1b0600
+      data:
+        first: 23
+        second: ec182300
+      data:
+        first: 33
+        second: 2c5b3200
+    lLock4mid0:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+      data:
+        first: 23
+        second: b2182300
+      data:
+        first: 33
+        second: f25a3200
+    lLock4tip0:
+      data:
+        first: 1
+        second: 14870100
+      data:
+        first: 4
+        second: f41a0600
+      data:
+        first: 23
+        second: c0182300
+      data:
+        first: 33
+        second: 005b3200
+    lLock4top0:
+      data:
+        first: 1
+        second: 2e870100
+      data:
+        first: 4
+        second: 0e1b0600
+      data:
+        first: 23
+        second: d6182300
+      data:
+        first: 33
+        second: 165b3200
+    midMid01:
+      data:
+        first: 1
+        second: 1c870100
+      data:
+        first: 4
+        second: fc1a0600
+      data:
+        first: 23
+        second: c6182300
+      data:
+        first: 33
+        second: 065b3200
+    midTip01:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+      data:
+        first: 23
+        second: 92182300
+      data:
+        first: 33
+        second: d25a3200
+    midTop01:
+      data:
+        first: 1
+        second: 2c870100
+      data:
+        first: 4
+        second: 0c1b0600
+      data:
+        first: 23
+        second: d4182300
+      data:
+        first: 33
+        second: 145b3200
+    rLock1mid0:
+      data:
+        first: 1
+        second: 5a870100
+      data:
+        first: 4
+        second: 3a1b0600
+      data:
+        first: 23
+        second: f6182300
+      data:
+        first: 33
+        second: 365b3200
+    rLock1top0:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200
+    rLock2mid0:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+      data:
+        first: 23
+        second: 9c182300
+      data:
+        first: 33
+        second: dc5a3200
+    rLock2tip0:
+      data:
+        first: 1
+        second: 36870100
+      data:
+        first: 4
+        second: 161b0600
+      data:
+        first: 23
+        second: da182300
+      data:
+        first: 33
+        second: 1a5b3200
+    rLock2top0:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    rLock3mid0:
+      data:
+        first: 1
+        second: 62870100
+      data:
+        first: 4
+        second: 421b0600
+      data:
+        first: 23
+        second: fc182300
+      data:
+        first: 33
+        second: 3c5b3200
+    rLock3tip0:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    rLock3top0:
+      data:
+        first: 1
+        second: 20870100
+      data:
+        first: 4
+        second: 001b0600
+      data:
+        first: 23
+        second: ca182300
+      data:
+        first: 33
+        second: 0a5b3200
+    rLock4mid0:
+      data:
+        first: 1
+        second: 10870100
+      data:
+        first: 4
+        second: f01a0600
+      data:
+        first: 23
+        second: bc182300
+      data:
+        first: 33
+        second: fc5a3200
+    rLock4tip0:
+      data:
+        first: 1
+        second: 0e870100
+      data:
+        first: 4
+        second: ee1a0600
+      data:
+        first: 23
+        second: ba182300
+      data:
+        first: 33
+        second: fa5a3200
+    rLock4top0:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    rPad03:
+      data:
+        first: 1
+        second: 44870100
+      data:
+        first: 4
+        second: 241b0600
+      data:
+        first: 23
+        second: e8182300
+      data:
+        first: 33
+        second: 285b3200
+    rPad04:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+      data:
+        first: 23
+        second: de182300
+      data:
+        first: 33
+        second: 1e5b3200

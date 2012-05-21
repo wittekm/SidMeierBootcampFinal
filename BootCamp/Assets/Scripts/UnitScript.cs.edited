@@ -1,0 +1,171 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class UnitScript : MonoBehaviour {
+	
+	public int health, range, atk, def, tilesMovedThisTurn, atkRange;
+	public string unitName;
+	public List<Ability> abilities;
+    public bool isVisible;
+	private int team = -1;
+	
+	public TileScript parentTile;
+	
+	public UnitScript() {
+		abilities = new List<Ability>();
+	}
+	
+	// The visual representation
+	//public GameObject unit;
+	
+	// Use this for initialization
+	void Start () {
+		tilesMovedThisTurn = 0;
+		//SetTeam(team); // color stuff
+		gameObject.name = unitName + " Team " + team;
+        if(atkRange == null)
+            atkRange = 1;
+	}
+	
+	// Stuff for movement
+	bool doMovement;
+	float startTime;
+	Vector3 aboveDest;
+	Vector3 aboveSource;
+	TileScript destination;
+	static float moveTime = 1.2f;
+	
+	public void SetTeam(int t) {
+		this.team = t;
+		Debug.Log ("Setting team " + t + " of " + Game.getInstance().teams.Count);
+		foreach(Renderer r in gameObject.GetComponentsInChildren<Renderer>()) {
+			r.material.color = Game.getInstance().teams[t].color;
+		}
+		
+	}
+	
+	public int GetTeam() { return team; }
+
+
+    //Make the units face the right direction.
+    void DirectionStuff(TileScript destination)
+    {
+        if (destination.directionToGo == TileScript.Direction.LEFT)
+            gameObject.transform.rotation = Quaternion.Euler(0, 270, 0);
+        else if (destination.directionToGo == TileScript.Direction.RIGHT)
+            gameObject.transform.rotation = Quaternion.Euler(0, 90, 0);
+        else if (destination.directionToGo == TileScript.Direction.UP)
+            gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        else if (destination.directionToGo == TileScript.Direction.DOWN)
+            gameObject.transform.rotation = Quaternion.Euler(0, 180, 0);
+    }
+		
+	// Update is called once per frame
+	void Update () {
+		if (isVisible)
+            SetAlpha(1f);
+        else
+            SetAlpha(0f);
+		
+		if(doMovement) { // just the animation
+			
+			float time = (Time.time - startTime) / (moveTime * (float)destination.GetImpedence()) * (float)destList.Count;
+			gameObject.transform.position = Vector3.Lerp(aboveSource, aboveDest, time);	
+			if(time >= 1) {
+				doMovement = false;
+				if(destList!=null && ++destListIndex != destList.Count){ 
+					moveTo (destList[destListIndex]);
+                    DirectionStuff(destList[destListIndex-1]);
+				}
+			}
+		}
+	}
+	
+	/*
+	public void SetUnitType(GameObject unitType) {
+		unit = Object.Instantiate(unitType) as GameObject;
+	}
+	*/
+	
+	public void SetUnitPos(Vector3 v) {
+		gameObject.transform.position = v;
+	}
+	
+	public void ClearUnit() {
+		
+	}
+	
+	public Vector3 Pos() {
+		return gameObject.transform.position;
+	}
+	
+	public int RemainingMovement() {
+		return range - tilesMovedThisTurn;
+	}
+	
+	
+	public void moveTo(TileScript dest) {
+		parentTile = dest;
+		aboveDest = dest.Pos() + new Vector3(0f, 1f, 0f);
+		aboveSource = Pos() + new Vector3(0f, 0f, 0f);
+		startTime = Time.time;
+		doMovement = true;
+		destination = dest;
+	}
+	
+	List<TileScript> destList;
+	int destListIndex = 0;
+	public void moveTo(List<TileScript> destList) {
+		this.destList = destList;
+		destListIndex = 0;
+		moveTo(destList[0]);
+        DirectionStuff(destList[0]);
+	}
+
+    public string UnitDescription()
+    {
+		return unitName + " health: "+health + "\natk: " + atk + "\ntiles moved: " + tilesMovedThisTurn;
+	}
+	
+	public int GuiYOffset = 0;
+	public int GuiXOffset = 0;
+	public Vector2 GuiPos() {
+		Vector3 unitPos = Camera.main.WorldToScreenPoint(gameObject.transform.position);
+		float x = unitPos.x + GuiXOffset;
+		float y = Screen.height - unitPos.y - (12 * Camera.main.orthographicSize) + GuiYOffset;
+		return new Vector2(x, y);
+	}
+	
+	public void SetAlpha(float f) {
+		foreach(Renderer r in gameObject.GetComponentsInChildren<Renderer>()) {
+			if(f != 1f)
+				r.material.shader = Shader.Find("Transparent/Diffuse");
+			else
+				r.material.shader = Shader.Find ("Diffuse");
+			r.material.color = AlphaColor(r.material.color, f);
+		}
+	}
+	
+	public static Color AlphaColor(Color c, float a) {
+		return new Color(c.r, c.g, c.b, a);
+	}
+	
+	public System.Action<UnitScript> PerformOnNewTurn = (us) => {Debug.Log("test" + us.name);};
+	public void NewTurn() {
+		if(GetTeam() == Game.getInstance().currentTeam) {
+			tilesMovedThisTurn = 0;
+			
+			PerformOnNewTurn(this);
+		}
+	}
+	
+	public void attackUnit(UnitScript defender)
+	{
+		Game.Team teamA = Game.getInstance().teams[team];
+		Game.Team teamD = Game.getInstance().teams[defender.team];
+		int dmg = (int)(Mathf.Ceil(((float)(atk + teamA.atkBuf))/((float)(defender.def + teamD.defBuf)) * 2.0f)); //FIX - need ability.atk
+		Debug.Log("DMG"+dmg);
+		defender.health -= dmg;
+	}
+}

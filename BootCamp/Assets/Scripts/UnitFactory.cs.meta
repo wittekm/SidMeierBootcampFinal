@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ceb1f9bcb15f2446a994d5afe997f9a0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - circleUnitType: {instanceID: 0}
+  - constructionWorkerType: {instanceID: 0}
+  - normandyUnitType: {instanceID: 0}
+  - lamboUnitType: {instanceID: 0}
+  - centurionUnitType: {fileID: 100000, guid: fa486953ef2214f49bdb034463e9d222, type: 2}
+  - droneUnitType: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
