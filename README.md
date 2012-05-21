@@ -1,5 +1,5 @@
 #Introduction
-This is a strategy game that  Stephen Fulcher (UMich '12), Jordan Mack (UMich '13)  and Max Wittek (UMich 2012) **created in ten days** for [Sid Meier's Game Design Bootcamp 2012][bootcamp]. Given the limited timeframe we had, we're pretty proud of the results.
+This is a strategy game that  Stephen Fulcher (UMich '12), Jordan Mack (UMich '13)  and Max Wittek (UMich '12) created in **ten days** for [Sid Meier's Game Design Bootcamp 2012][bootcamp]. Given the limited timeframe we had, we're pretty proud of the results.
 
 #The idea
 The original idea was to make a lightweight turn-based strategy game that could be played asynchronously between players - like Words with Friends, or even harkening back to the days of chess-by-email. Eventually we would port it to a mobile platform, where such games thrive. Some gameplay ideas included limiting resource collection present in most other strategy games so that players could finish up a round within twenty turns or so. Influences included Sid Meier's *Civilization* and *Alpha Centauri*, as well as Intelligent Systems' *Advance Wars*.
